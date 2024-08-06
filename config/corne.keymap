@@ -21,6 +21,13 @@
             flavor = "balanced";
             hold-trigger-key-positions = <12>;
         };
+
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-caps-word";
+            label = "NEW_BEHAVIOR";
+            #binding-cells = <0>;
+            continue-list = <NUMBER_0>;
+        };
     };
 
     keymap {
