@@ -74,7 +74,7 @@
 &kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0       &kp BSPC
 &kp LCTRL  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp F6        &kp MINUS     &kp EQUAL     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
 &kp LSHFT  &kp F7        &kp F8        &kp F9        &kp F10       &kp F11         &kp F12       &kp UNDER     &kp PLUS      &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE
-                                       &kp LGUI      &trans        &kp SPACE       &kp RET       &mo 3         &kp RALT
+                                       &sys_reset    &trans        &bootloader     &bootloader   &mo 3         &sys_reset
             >;
         };
 
