@@ -56,10 +56,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TILDE       &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTRK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
-&kp ESCAPE      &trans    &trans  &trans    &trans      &trans         &kp LEFT   &kp DOWN       &kp UP       &kp RIGHT             &kp PRINTSCREEN        &kp RIGHT_CONTROL
-&kp LEFT_SHIFT  &trans    &trans  &trans    &trans      &trans         &kp HOME   &kp END        &kp PAGE_UP  &kp PAGE_DOWN         &kp DELETE             &kp INSERT
-                                  &kp LGUI  &mo 3       &kp SPACE      &kp RET    &trans         &kp RALT
+&kp TILDE       &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET    &kp AMPERSAND  &kp ASTRK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
+&kp ESCAPE      &trans    &trans  &trans    &trans      &trans         &kp LEFT     &kp DOWN       &kp UP       &kp RIGHT             &kp PRINTSCREEN        &kp RIGHT_CONTROL
+&kp LEFT_SHIFT  &trans    &trans  &trans    &trans      &trans         &kp HOME     &kp END        &kp PAGE_UP  &kp PAGE_DOWN         &kp DELETE             &kp INSERT
+                                  &kp LGUI  &mo 3       &kp SPACE      &bootloader  &trans         &sys_reset
             >;
         };
 
@@ -71,10 +71,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0       &kp BSPC
-&kp LCTRL  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp F6        &kp MINUS     &kp EQUAL     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
-&kp LSHFT  &kp F7        &kp F8        &kp F9        &kp F10       &kp F11         &kp F12       &kp UNDER     &kp PLUS      &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE
-                                       &sys_reset    &trans        &bootloader     &bootloader   &mo 3         &sys_reset
+&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5        &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0       &kp BSPC
+&kp LCTRL  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5              &kp F6        &kp MINUS     &kp EQUAL     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
+&kp LSHFT  &kp F7        &kp F8        &kp F9        &kp F10       &ext_power EP_ON    &kp F12       &kp UNDER     &kp PLUS      &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE
+                                       &sys_reset    &trans        &bootloader         &bootloader   &mo 3         &sys_reset
             >;
         };
 
